@@ -40,7 +40,13 @@ public class Main {
 //
 //        System.out.println("cuboid.volume= " + cuboid.getVolume());
 
-        System.out.println("circle.area= " + circle.getArea());
+        JuniorDeveloper hamza = new JuniorDeveloper(1, "Hamza Şahin", 30000);
+        JuniorDeveloper ahmet = new JuniorDeveloper(2, "Ahmet Mehmet", 30000);
+        EmployeeDatabase.addEmployee(hamza);
+        EmployeeDatabase.addEmployee(ahmet);
+        SeniorDeveloper hamzaSenior = new SeniorDeveloper(1, "Hamza Şahin", 70000);
+        EmployeeDatabase.addEmployee(hamzaSenior);
+        System.out.println(EmployeeDatabase.display());
 
     }
 }
