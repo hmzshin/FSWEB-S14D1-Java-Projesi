@@ -1,10 +1,10 @@
-import com.s14d1.positions.HRManager;
-import com.s14d1.positions.JuniorDeveloper;
-import com.s14d1.positions.MidDeveloper;
-import com.s14d1.positions.SeniorDeveloper;
-
 import java.util.ArrayList;
 import java.util.List;
+
+import com.s14d1.developerCompany.HRManager;
+import com.s14d1.developerCompany.JuniorDeveloper;
+import com.s14d1.developerCompany.MidDeveloper;
+import com.s14d1.developerCompany.SeniorDeveloper;
 
 public class EmployeeDatabase {
     private static List<HRManager> hrManagers = new ArrayList<>();
@@ -31,7 +31,6 @@ public class EmployeeDatabase {
     public static void addEmployee(SeniorDeveloper employee) {
         seniorDevelopers.add(employee);
     }
-
 
     public static String display() {
         return "{" + "hrManagers:" + hrManagers + "," +

@@ -1,6 +1,6 @@
-package com.s14d1.positions;
+package com.s14d1.developerCompany;
 
-import com.s14d1.positions.Employee;
+import com.s14d1.developerCompany.Employee;
 
 public class JuniorDeveloper extends Employee {
     private long salary;
@@ -9,7 +9,6 @@ public class JuniorDeveloper extends Employee {
         super(id, name);
         this.salary = salary;
     }
-
 
     public void setSalary(long salary) {
         this.salary = salary;

@@ -1,15 +1,14 @@
-package com.s14d1.positions;
+package com.s14d1.developerCompany;
 
-import com.s14d1.positions.Employee;
+import com.s14d1.developerCompany.Employee;
 
-public class SeniorDeveloper extends Employee {
+public class MidDeveloper extends Employee {
     private long salary;
 
-    public SeniorDeveloper(int id, String name, long salary) {
+    public MidDeveloper(int id, String name, long salary) {
         super(id, name);
         this.salary = salary;
     }
-
 
     public void setSalary(long salary) {
         this.salary = salary;
@@ -22,7 +21,7 @@ public class SeniorDeveloper extends Employee {
 
     @Override
     public void work() {
-        System.out.println("Senior Developer started to work");
+        System.out.println("Mid Developer started to work");
     }
 
     @Override

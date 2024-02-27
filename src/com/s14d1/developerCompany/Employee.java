@@ -1,11 +1,9 @@
-package com.s14d1.positions;
+package com.s14d1.developerCompany;
 
 public class Employee {
     private int id;
     private String name;
-
     private long salary = 17000;
-
 
     public Employee(int id, String name) {
         this.id = id;
@@ -38,6 +36,6 @@ public class Employee {
     }
 
     public void work() {
-        System.out.println("com.s14d1.positions.Employee starts to work");
+        System.out.println("Employee starts working");
     }
 }
